@@ -145,8 +145,8 @@ public class PopupDialogButton: UIButton {
         var constraints = [NSLayoutConstraint]()
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:[button(45)]", options: [], metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[separator]|", options: [], metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[separator(1)]", options: [], metrics: nil, views: views)
-        constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[leftSeparator(1)]", options: [], metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[separator(0.5)]", options: [], metrics: nil, views: views)
+        constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|[leftSeparator(0.5)]", options: [], metrics: nil, views: views)
         constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|[leftSeparator]|", options: [], metrics: nil, views: views)
         NSLayoutConstraint.activateConstraints(constraints)
     }
